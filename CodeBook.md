@@ -1,10 +1,18 @@
-<> <> <> Codebook for Course Project <> <> <>
-Coursera Class 'Getting and Cleaning Data'
+Codebook for Course Project
 ========================================
+Coursera Class 'Getting and Cleaning Data'
+----------------------------------------
 
-My output, called "TidyData" is a dataset created from raw data provided by the course. The TidyData has 10 variables which I will describe here.
+This is being completed as part of Coursera's Getting and Cleaning Data course in the Data Science Specialty track.
 
-Variables in My CodeBook
+A full description is available at the site where the data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+My output, called "TidyData" is a dataset created from raw data provided by the course. Although there is a lot contained within the raw data, this is a smaller dataset created at the direction of the coursera assignment. The TidyData has 10 variables which I will describe here.
+
+Variables in TidyData
+------------------------
 
 1. ActivityId
 2. SubjectId
@@ -16,3 +24,18 @@ Variables in My CodeBook
 8. Angle(tBodyGyroJerkMean,GravityMean)
 9. Angle(X,GravityMean)
 10. ActivityType
+
+
+Notes about each Variable in TidyData
+------------------------------
+
+1. Id value in dataset. Maintained for reference.
+2. Id value in dataset. Maintained for reference.
+3. In this dataset, per the Features_Info document, this is the skewness of the frequency domain signal. In general, skewness can be described as a method of measuring symmetry of a dataset. I looked this up in an outside source as I explored the dataset. See #4 below for source.
+4. In this dataset, per the Features_Info document, this is the kurtosis of the frequency domain signal. In general, kurtosis "is a measure of whether the data are peaked or flat relative to a normal distribution". See the following for definitions of skewness and kurtosis if this is unfamilar to you (it was unfamilar to me!): http://www.itl.nist.gov/div898/handbook/eda/section3/eda35b.htm
+5.
+6.
+7.
+8.
+9.
+10. This contains a description of the activity in layman terms, such as "Walking"
